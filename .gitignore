@@ -9,3 +9,7 @@ dataset/vivahand/*
 dataset/widerface/*
 YAD2K-master/*
 pretrain/*
+darknet_tiny-yolov2-trail3-nb/backup/
+darknet_tiny-yolov2-trail3-nb/bin/
+darknet_tiny-yolov2-trail3-nb/ckpt/
+darknet_tiny-yolov2-trail3-nb/sample_img/
