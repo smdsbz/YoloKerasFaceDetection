@@ -23,6 +23,7 @@ for(my $list=1;$list<=10;$list=$list+1){
   if($list<10){
     $list02="0$list";
   }
+  # print "$dataset_path"."FDDB-folds/FDDB-fold-".$list02."-ellipseList.txt\n";
   open(IN,"<$dataset_path"."FDDB-folds/FDDB-fold-".$list02."-ellipseList.txt") or die ("wider face dataset not found");
 
   while(my $line=<IN>){

@@ -38,7 +38,7 @@ def view(MODE):
 			w=int(float(data[3])*target_image.shape[1])
 			h=int(float(data[4])*target_image.shape[0])
 
-			cv2.rectangle(target_image, (x-w/2,y-h/2), (x+w/2,y+h/2), color=(0,0,255), thickness=3)
+			cv2.rectangle(target_image, (x-w//2,y-h//2), (x+w//2,y+h//2), color=(0,0,255), thickness=3)
 			cv2.putText(target_image, str(cls), (x,y+16), cv2.FONT_HERSHEY_COMPLEX_SMALL, 0.8, (0,0,250));
 
 		cv2.imshow("agegender", target_image)

@@ -2,7 +2,7 @@
 
 import os
 import sys
-import urllib2
+from urllib import request as urllib2
 
 def main(argv):
 	OUTPUT_PATH="./pretrain/"
